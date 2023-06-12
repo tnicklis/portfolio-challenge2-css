@@ -43,7 +43,8 @@ aside {
     width:33%;
 }
 
-img {
+/*makes headshot fill aside completely and makes the image round*/
+.headshot {
     width: 100%;
     border-radius: 50%;
 }
@@ -64,6 +65,12 @@ section {
     padding-right: 5%;
     padding-left: 5%;
 }
+
+.mywork img {
+    width:200px;
+}
+
+
 
 /*when screen size gets smaller, navigation will move under the heading, the aside with photo will display first, followed by the main sections of the site. */
 @media screen and (max-width: 768px) {
