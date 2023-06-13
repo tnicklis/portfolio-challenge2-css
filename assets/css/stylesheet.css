@@ -18,7 +18,7 @@ h1 {
     text-align: center;  
     font-size: 280%;
 }
-/*navigation styling starts here*/
+/* navigation styling starts here */
 nav {
     display: flex;
 }
@@ -31,16 +31,21 @@ nav a {
     font-size:150%;
 }
 
-/*navigation buttons will change color and underline when user hovers over section*/
+/* navigation buttons will change color and underline when user hovers over section */
 nav a:hover { 
     color: whitesmoke;
     text-decoration: underline;
 }
-/*navigation styling ends here*/
+/* navigation styling ends here */
 
+/* font sizes and colors: */
 h2 {
     font-size: 170%;
     color: black;
+}
+
+h3 {
+    color: lightseagreen;
 }
 
 p {
@@ -51,6 +56,11 @@ li {
     font-size: 130%;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* creating initial flex boxes: */
 main {
     display: flex;
     flex: 1 1 auto;
@@ -65,45 +75,48 @@ aside {
     padding: 10px;
 }
 
-/*makes headshot fill aside completely and makes the image round, with matching border*/
+/* makes headshot specific size and makes the image round, with matching border */
 .headshot {
     width: 200px;
     border-radius: 50%;
     border: 2px solid lightseagreen;
 }
 
-h3 {
-    color: lightseagreen;
-}
-
 section {
    padding: 10px;
 }
 
-a {
-    text-decoration: none;
+article { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .portfolio-container {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 auto;
-    align-items: center;
 }
 
-.portfolio-container img {
+.portfolio-container-item {
+    flex: 1;
+    margin: .5em;
+    box-sizing: border-box;
+}
+
+.portfolio-container-item img {
     border: 3px solid lightseagreen;
     max-height: 200px;
+    object-fit: cover;
 }
 
-/*when you hover over the image, the image goes slightly grey*/
-.portfolio-container img:hover {
+/*when you hover over the portfolio images, the image goes slightly grey*/
+.portfolio-container-item img:hover {
     opacity: 0.7;
 }
 
 /*styling Portfolio flexbox so that the first image is larger than the rest*/
 .portfolio-container-item:first-child {
-    flex-basis: 100%;
+    flex-basis: calc(100% - 1em);
 }
 
 .portfolio-container-item:first-child img {
@@ -111,7 +124,7 @@ a {
 }
 
 .portfolio-container-item:not(:first-child) {
-    flex-basis: 50%;
+    flex-basis: calc(50% - 1em);
 }
 
 .portfolio-container-item:not(first-child) img {
