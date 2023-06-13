@@ -11,6 +11,8 @@ You can use this website to learn more about me, view my work, and to find my co
 
 ![Project Screenshot](./assets/images/FinishedProjectSample.png)
 
+Deployed Application here: https://tnicklis.github.io/portfolio-challenge2-css/
+
 ## Credits 
 Utilized information from W3Schools (https://www.w3schools.com/), StackOverflow, and ChatGPT.
 I also consulted with a friend, Dylan Ellington, to complete this project.
