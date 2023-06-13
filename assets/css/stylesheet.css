@@ -72,18 +72,19 @@ aside {
     align-items: center;
     justify-content: center;
     height: min-content;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 /* makes headshot specific size and makes the image round, with matching border */
 .headshot {
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
     border: 2px solid lightseagreen;
 }
 
 section {
-   padding: 10px;
+   padding: 0px 50px;
 }
 
 article { 

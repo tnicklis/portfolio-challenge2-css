@@ -7,7 +7,9 @@ Challenge Activity Week 2: Build a Portfolio using advanced CSS concepts leaned 
 You can view this code by exploring the files on GitHub, or pulling them into VS Code via Git in the CLI.
 
 ## Usage
-You can use this website to learn more about me, view my work, and contact me (Tylar). You can access it via the deployed GitPages. 
+You can use this website to learn more about me, view my work, and to find my contact information. You can access it via the deployed GitPages. 
+
+![Project Screenshot](./assets/images/FinishedProjectSample.png)
 
 ## Credits 
 Utilized information from W3Schools (https://www.w3schools.com/), StackOverflow, and ChatGPT.
